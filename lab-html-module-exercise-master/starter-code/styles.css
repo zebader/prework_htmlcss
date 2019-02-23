@@ -21,7 +21,10 @@ nav {
   height: 60px;
     line-height:60px;
 }
-
+section{
+  position:relative;
+  margin:0;
+}
 nav a {
   color: rgba(255,255,255,0.8);
   text-decoration: none;
@@ -44,7 +47,7 @@ nav a {
 header{
   color:white;
   background:rgb(32, 101, 136) url('images/city-scape.svg') right top no-repeat;
-    padding: 0px 0px 120px 0px;
+    padding: 0px 0px 160px 0px;
  width:100%;
  background-size:cover;
 }
@@ -52,6 +55,7 @@ header{
   height:60px;
   line-height:60px;
   padding:10px;
+  margin-bottom: 60px;
 }
 .header-searchbar img{
   height:60px;
@@ -80,8 +84,7 @@ header .content a{
 #npmenterprise{
  background:rgb(39, 53, 71);
  color:white;
-  padding: 90px 0px;
- display:inline-block;
+  padding: 160px 0px;
  width:100%;
 }
 #npmenterprise ul{
@@ -111,4 +114,24 @@ header .content a{
 }
 .clearbox{
   clear: both;
+}
+#features{
+ background:rgb(39, 53, 71) url('images/forklift.svg') right top no-repeat;
+ background-size:cover;
+ color:white;
+ padding: 160px 0px;
+ width:100%;
+}
+#features .content a{
+  background-color:rgb(49, 68, 88);
+  border-radius:30px;
+  height:20px;
+  line-height:10px;
+  text-decoration:none;
+  padding:15px 30px;
+  color:white;
+}
+#features .content p{
+  width:40%;
+  margin-bottom: 40px;
 }
